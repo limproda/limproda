@@ -17,3 +17,4 @@ Here, you can join me on my journey through the vast world of technology and cod
 ![Limproda's GitHub stats](https://github-readme-stats.vercel.app/api?username=limproda&show_icons=true&theme=transparent)
 -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=limproda&layout=donut)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=limproda)](https://git.io/streak-stats)
