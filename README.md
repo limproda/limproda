@@ -2,9 +2,9 @@
 
 Here, you can join me on my journey through the vast world of technology and coding. Welcome!
 
-👨🏾‍🎓 On my way to earn my Bachelor's Degree in Computer Engineering.
+👨🏾‍🎓 On my way to earn my Bachelor's Degree in Computer Science.
 
-🌱 I’m currently learning: Python.
+🌱 I’m currently learning: Javascript.
 
 📌 Illinois, USA.
 ## My current badges 🏆
