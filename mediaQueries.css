@@ -25,6 +25,17 @@
 }
 
 @media (max-width: 800px) {
+
+.nav-links {
+    gap: 1.3rem;
+}
+.nav-links li a {
+    font-size: 1.2rem;
+}
+.navbar a {
+    font-size: 1.2rem;
+}
+
     .home-image {
         display: none;
 
@@ -69,7 +80,7 @@
     }
 
     .image-caption {
-        margin-bottom: 4tem;
+        margin-bottom: 4rem;
     }
 
 
