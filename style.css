@@ -103,7 +103,7 @@ h2 {
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -750px 0;
-    animation: backcolor 6s ease infinite alternate;
+    animation: backcolor 6s ease forwards;
 }
 
 @keyframes backcolor {
@@ -249,13 +249,42 @@ h2 {
 }
 
 .progress-bar-border {
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 .progress-bar {
     height: 24px;
     background-color: #0676a1;
-    transition: width 0.5s ease;
+    width: 0;
+}
+
+.pb1{
+    animation: fillAnimation1 2s ease-in-out forwards;
+}
+.pb2{
+    animation: fillAnimation2 2.9s ease-in-out forwards;
+}
+.pb3{
+    animation: fillAnimation3 2.5s ease-in-out forwards;
+}
+.pb4{
+    animation: fillAnimation4 2s ease-in-out forwards;
+}
+.pb5{
+    animation: fillAnimation5 3s ease-in-out forwards;
+}
+.pb6{
+    animation: fillAnimation6 2.7s ease-in-out forwards;
+}
+
+
+.pb2{
+
+}
+
+.pb3{
+
 }
 
 /* JOURNEY */
@@ -376,4 +405,59 @@ h2 {
 .about-image:hover,
 .timeline-image:hover {
     transform: translateY(-10px)
+}
+
+@keyframes fillAnimation1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@keyframes fillAnimation2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@keyframes fillAnimation3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 83%;
+    }
+}
+@keyframes fillAnimation4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@keyframes fillAnimation5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+@keyframes fillAnimation6 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
 }
