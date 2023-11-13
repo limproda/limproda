@@ -8,7 +8,7 @@ Here, you can join me on my journey through the vast world of technology and cod
 
 📌 Illinois, USA.
 
-https://limproda.github.io/limproda/
+Visit my Personal Portfolio: https://limproda.github.io/limproda/
 ## My current badges 🏆
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
