@@ -17,15 +17,13 @@ a {
 }
 
 h2 {
-    
+
     font-size: 2.4rem;
     color: #0676a1;
-    
 }
 
 .p-title {
     font-size: 1.4rem;
-    
 }
 
 /* NAVBAR SECTION */
@@ -72,7 +70,7 @@ h2 {
     font-weight: 500;
 }
 
-/* NAVBAR LINKS SECTIONS LOCATOR */
+/* NAVBAR LINKS SECTIONS LOCATORS */
 
 #link-about,
 #link-skills,
@@ -116,13 +114,11 @@ h2 {
     }
 }
 
-
 .home-image {
     width: 25em;
     height: 25em;
     border-radius: 20%;
     /* box-shadow: 0.1rem 0.5rem 2rem #000; */
-
 }
 
 .home-content {
@@ -138,10 +134,11 @@ h2 {
     font-size: 3.6rem;
 }
 
-.student {
+.itsupport { /* IT SUPPORT GOOGLE CERTIFIED TEXT BELOW MY NAME */
     font-size: 1.7rem;
     color: #000;
     font-weight: 400;
+    font-style: italic;
 }
 
 .home-text {
@@ -164,7 +161,6 @@ h2 {
     padding: 0.5rem;
     margin-top: 2rem;
     box-shadow: 0.1rem 1rem 1rem #00000062;
-
 }
 
 /* ABOUT SECTION */
@@ -174,7 +170,6 @@ h2 {
 .journey-title-container {
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
 .about-container {
@@ -191,7 +186,7 @@ h2 {
 }
 
 .about-text {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.8rem;
@@ -218,7 +213,7 @@ h2 {
     border-radius: 2rem;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
-    box-shadow: 0rem  0.1rem 1rem #202020;
+    box-shadow: 0rem 0.1rem 1rem #202020;
 }
 
 /* SKILLS SECTION */
@@ -233,7 +228,6 @@ h2 {
     justify-content: center;
     gap: 10%;
     margin-bottom: 3rem;
-
 }
 
 .skills-pack {
@@ -259,39 +253,35 @@ h2 {
     width: 0;
 }
 
-.pb1{
+.pb1 {
     animation: fillAnimation1 2s ease-in-out forwards;
 }
-.pb2{
+
+.pb2 {
     animation: fillAnimation2 2.9s ease-in-out forwards;
 }
-.pb3{
+
+.pb3 {
     animation: fillAnimation3 2.5s ease-in-out forwards;
 }
-.pb4{
+
+.pb4 {
     animation: fillAnimation4 2s ease-in-out forwards;
 }
-.pb5{
+
+.pb5 {
     animation: fillAnimation5 3s ease-in-out forwards;
 }
-.pb6{
+
+.pb6 {
     animation: fillAnimation6 2.7s ease-in-out forwards;
-}
-
-
-.pb2{
-
-}
-
-.pb3{
-
 }
 
 /* JOURNEY */
 
 #journey {
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .timeline-image {
@@ -328,8 +318,6 @@ h2 {
     font-size: 2rem;
     text-align: right;
     margin: 0.2rem auto;
-
-
 }
 
 .timeline-year h3 {
@@ -338,7 +326,7 @@ h2 {
 
 .timeline p {
     color: #010101;
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
 }
@@ -353,10 +341,10 @@ h2 {
     padding: 1.75rem;
     transition: 0.4s ease;
     overflow-wrap: break-word !important;
-   
 }
 
 .timeline-content h3 {
+    font-family: "Roboto", sans-serif;
     color: #010101;
 }
 
@@ -380,7 +368,6 @@ h2 {
 .footer {
     height: 6vh;
     margin: 0 auto;
-
     text-align: center;
     background-color: #202020;
     color: white;
@@ -399,7 +386,6 @@ h2 {
     border-width: 1px;
     border: solid #0676a1;
     color: #0676a1;
-
 }
 
 .about-image:hover,
@@ -407,6 +393,7 @@ h2 {
     transform: translateY(-10px)
 }
 
+/* KEYFRAMES OF BARS-SKILLS*/
 @keyframes fillAnimation1 {
     0% {
         width: 0;
@@ -416,6 +403,7 @@ h2 {
         width: 75%;
     }
 }
+
 @keyframes fillAnimation2 {
     0% {
         width: 0;
@@ -425,6 +413,7 @@ h2 {
         width: 65%;
     }
 }
+
 @keyframes fillAnimation3 {
     0% {
         width: 0;
@@ -434,6 +423,7 @@ h2 {
         width: 83%;
     }
 }
+
 @keyframes fillAnimation4 {
     0% {
         width: 0;
@@ -443,6 +433,7 @@ h2 {
         width: 65%;
     }
 }
+
 @keyframes fillAnimation5 {
     0% {
         width: 0;
@@ -452,6 +443,7 @@ h2 {
         width: 85%;
     }
 }
+
 @keyframes fillAnimation6 {
     0% {
         width: 0;

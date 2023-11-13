@@ -1,5 +1,7 @@
 /* MEDIA QUERIES */
 
+/* FULL SIZE */
+
 @media (max-width: 1100px) {
     #home {
         flex-direction: column;
@@ -13,25 +15,22 @@
     .skills-container-right {
         width: 40%;
     }
-
-    .skills-title {
-        font-size: 18px;
-        font-weight: 100;
-    }
-
 }
 
+/* FOR 800px */
 @media (max-width: 800px) {
 
-.nav-links {
-    gap: 1.3rem;
-}
-.nav-links li a {
-    font-size: 1.2rem;
-}
-.navbar a {
-    font-size: 1.2rem;
-}
+    .nav-links {
+        gap: 1.3rem;
+    }
+
+    .nav-links li a {
+        font-size: 1.2rem;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+    }
 
     .home-image {
         display: none;
@@ -48,7 +47,7 @@
     }
 
     .about-text {
-        
+
         line-height: 1.8rem;
     }
 
@@ -77,9 +76,38 @@
         margin-bottom: 4rem;
     }
 
-
+    .last-section-container {
+        gap: 10%;
+    }
 }
 
+/* FOR 600px */
+@media (max-width: 600px) {
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+    }
+
+    .about-container {
+        height: 150vh;
+    }
+
+    .skills-container-left,
+    .skills-container-right {
+        width: 80%;
+    }
+
+
+}
+/* TIMELINE ANIMATIONS */
 @media (min-width: 768px) {
     .timeline {
         display: grid;
