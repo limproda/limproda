@@ -5,11 +5,8 @@
         flex-direction: column;
     }
 
-    .about-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15%;
+    .about-left-container {
+        width: 45%;
     }
 
     .skills-container-left,
@@ -43,18 +40,16 @@
 
     .about-container {
         flex-direction: column;
-        height: 100vh;
-
+        height: 120vh;
     }
 
     .about-left-container {
         width: 80%;
-
     }
 
     .about-text {
-        line-height: 1.4rem;
-
+        
+        line-height: 1.8rem;
     }
 
     .skills-container {
@@ -70,9 +65,8 @@
     }
 
     .skills-title {
-        font-size: 18px;
-        font-weight: 100;
-
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
     .skills-pack {
@@ -94,7 +88,7 @@
 
     .timeline-middle {
         position: relative;
-        background: #00abf0;
+        background: #0676a1;
         width: 3px;
         height: 100%;
     }
@@ -110,7 +104,7 @@
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background: #00abf0;
+        background: #0676a1;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
     }
