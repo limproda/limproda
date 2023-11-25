@@ -207,7 +207,7 @@ h2 {
 .about-image {
     width: 250px;
     height: 250px;
-    background: url(https://raw.githubusercontent.com/limproda/limproda/main/assets/banner-circular.jpg);
+    background: url("assets/banner-circular.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
