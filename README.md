@@ -4,7 +4,7 @@ Here, you can join me on my journey through the vast world of technology and cod
 
 👨🏾‍🎓 On my way to earn my Bachelor's Degree in Computer Science.
 
-🌱 I’m currently learning: PHP.
+🌱 I’m currently learning: NodeJS.
 
 📌 Illinois, USA.
 
